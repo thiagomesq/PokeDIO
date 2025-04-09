@@ -17,8 +17,8 @@ contract PokeDIO is ERC721 {
         gameOwner = msg.sender;
     }
 
-    modifier onlyOwnerOf(uint _monsterId) {
-        require(ownerOf(_monsterId) == msg.sender, "Apenas o dono pode batalhar com esse Pokemon");
+    modifier onlyOwnerOf(uint _pokemonId) {
+        require(ownerOf(_pokemonId) == msg.sender, "Apenas o dono pode batalhar com esse Pokemon");
         _;
     }
 

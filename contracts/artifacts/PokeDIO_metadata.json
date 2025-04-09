@@ -787,11 +787,11 @@
 			]
 		},
 		"contracts/PokeDIO.sol": {
-			"keccak256": "0x28a4e4659ccd9ffc400964531a101326e4c4806fde72f0ea61ad68dde1384b9c",
+			"keccak256": "0x001f16eff456bd3ce8154df813a0e545f58b07ac88ef24b8883d011b9e58c5f0",
 			"license": "SEE LICENSE IN LICENSE",
 			"urls": [
-				"bzz-raw://00700b02790990a32b06e5ef4866cd306fe9cf84da1aac7ce91ee66034cb7da6",
-				"dweb:/ipfs/QmfREYH8RoxbZ1PAn8Vu2XGATWt77qqoWHmS4CtE3zZnJS"
+				"bzz-raw://5ff159b696735798b3773a3e56018d07104c1ddc791771b2c3e4e94a12583180",
+				"dweb:/ipfs/QmakyeYuYfGtZtbHaqsQz39m8rfXuxFz5rPkZgS8Cmhvga"
 			]
 		}
 	},
