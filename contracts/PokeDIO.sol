@@ -23,7 +23,7 @@ contract PokeDIO is ERC721 {
     }
 
     function battle(uint _attackingPokemon, uint _defendingPokemon) public onlyOwnerOf(_attackingPokemon) {
-        require(_attackingPokemon != _defendingPokemon, "Um Pokemon não pode batalhar contra ele mesmo");
+        require(_attackingPokemon != _defendingPokemon, "Um Pokemon nao pode batalhar contra ele mesmo");
         Pokemon storage attackingPokemon = pokemons[_attackingPokemon];
         Pokemon storage defendingPokemon = pokemons[_defendingPokemon];
 
